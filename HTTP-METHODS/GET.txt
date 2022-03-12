@@ -1,0 +1,6 @@
+						==============				GET API 		============== 
+* Used to get data from a particular resource.
+* Majority content we see on the websites is the result from GET Api only.
+* Usually we don't need a request body as we are fetching data from the resource instead 
+  of creating one.
+* We must use pagination limits and offsets when the returned list is too large.  
