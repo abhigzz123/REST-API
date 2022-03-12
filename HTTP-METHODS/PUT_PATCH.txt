@@ -1,0 +1,19 @@
+		========		PUT-API		========	
+* Used to update a particular resource or even create a new resource as well if resource doesn't 
+  exists (Upsert operation).
+	ex - dummyurl.com/customer/1 
+
+		{ This will update the customer with id = 1, according to the provided payload }
+		
+* If we omit some fields in the put payload , then in the replaced response , we will ge those 
+  fields as null.	
+
+
+
+
+  		========		PATCH-API	 ========	
+
+* There is slight difference in put and patch request.
+* PUT replaces the whole attribute set of the resource while the PATCH request is used to only 
+  update the selected fields in the payload.
+*     		
