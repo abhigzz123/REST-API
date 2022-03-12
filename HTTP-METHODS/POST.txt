@@ -1,0 +1,5 @@
+					========				POST API			=========
+
+* Used to create a new resource or trigger a process.
+* Must contain a payload that contains the data associated with resource to be created.
+* If you  send the same request twice you will get a 409 status code , as two resources with same 	(id or  email or phone number) cannot be created. 
