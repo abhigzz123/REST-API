@@ -1,0 +1,16 @@
+			============		DELETE API 		=============
+* Used to delete a resource from the database.
+	ex - DELETE , dummyurl.com/customer/{id}
+
+* No payload ,neither any query parameter required.
+* There are two types of deletion 
+	(1.) Hard Delete-
+
+		-- This means to completely wipe off the data from the database.
+		-- After this there is no chance to get the data back as it is completely removed from the database.
+
+
+	(2.) Soft Delete	
+
+		-- This means you will keep a field in the database as  "isDeleted (boolean type)" , so 
+		   as soon as we hit delete request we will update this field as true , so in the frontend only the fields with isDeleted false will be shown.    
