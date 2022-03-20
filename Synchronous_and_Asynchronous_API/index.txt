@@ -1,6 +1,6 @@
 					Synchronous API and Asynchronous API
 
-* Synchronous -   It is when client hits the endpoint and get the response instantaneously 				   	 from the server. 
+* Synchronous -   It is when client hits the endpoint and get the response instantaneously from the server. 
 				  ex - We hit the api as "sample_domain/users/1".
 				  We got the response as 
 				  {
