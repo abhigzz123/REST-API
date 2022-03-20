@@ -1,0 +1,19 @@
+					Synchronous API and Asynchronous API
+
+* Synchronous -   It is when client hits the endpoint and get the response instantaneously 				   	 from the server. 
+				  ex - We hit the api as "sample_domain/users/1".
+				  We got the response as 
+				  {
+				  	id:1,
+				  	name:"Abhigyan Pandey",
+				  	location:"Lucknow"
+				  }
+
+*Asynchronous - It is when client hits the api , but the desired result will not be 
+                returned instantly , instead a new URI might be given in the response , and on hitting that new URI we can get our desired response after the data is fetched. 
+                ex- now let's assume that we want to upload a file on a server as "custom_domain/fileupload" and file_name is = "21/1/2022T1:45:00.csv"
+                so it will return a response as 
+                {
+                	filename:"21/1/2022T1:45:00.csv",
+                	status: "upload in progress"  (It might be in progress or failed or done)
+                }
